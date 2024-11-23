@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=3, b=2;
+    
+ //entrada de dados
+ 
+ printf ("digite o valor de a: \n");
+ scanf ("%d", &a);
+ printf ("digite o valor de b: \n");
+ scanf ("%d", &b);
+ 
+ //saida
+
+    printf("Soma = %d \n", a+b);
+    printf("Subtracao = %d \n", a-b);
+    printf ("divisao = %.2f \n", a*1.0/b);
+    printf("multiplicacao = %d \n", a*b);
+    printf("resto divisao = %d \n", a % b);
+
+    return 0;
+}
+
